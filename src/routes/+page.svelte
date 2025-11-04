@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Find your medication in stock, without the endless calling"
+	subtitle="We search nearby pharmacies for you. Most patients get results in 2-24 hours."
+	imageSrc="/generated/image-a-candid-documentary-style-photograph-of.webp"
+	callsToAction={[
+		{
+			href: "/start",
+			label: "Find my medication"
+		},
+		{
+			href: "/how-it-works",
+			label: "How it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading healthcare organizations"
+	logoUrls={[
+		'https://cdn.brandfetch.io/cvs.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/walgreens.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/kaiserpermanente.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/mayoclinic.org/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
