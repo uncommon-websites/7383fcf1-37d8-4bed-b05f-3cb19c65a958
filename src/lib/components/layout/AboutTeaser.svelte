@@ -1,6 +1,6 @@
 <!--
 @component AboutTeaser
-A minimalist teaser for the about page.
+A minimalist teaser for the about page that builds personal connection through the founder story.
 -->
 <script lang="ts">
 	// Types
@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Peter Daggett",
+		role: "Co-founder & CEO",
+		image: "/generated/image-a-professional-founder-headshot-in-a-mod.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I spent hours over the course of a week calling pharmacies for my own medications. That frustration became the catalyst for Medfinder. Every patient deserves access to the care they need, without the endless phone calls."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
@@ -47,7 +47,7 @@ A minimalist teaser for the about page.
 						<div class="text-callout">{teamMember.name}</div>
 						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read our story</Button>
 				</div>
 			</div>
 		</div>

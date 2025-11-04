@@ -36,62 +36,97 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Medfinder solves the frustrating problem of medication shortages by searching pharmacy inventories for you. We serve patients who need prescriptions filled but can't find them in stock, eliminating hours of phone calls with our 99% success rate. Most patients receive results within 2-24 hours, with medications located at nearby pharmacies ready for pickup."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Keisha Williams",
+			position: "Parent",
+			company: "Atlanta, GA",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I spent three days calling pharmacies for my son's ADHD medication during the shortage. Medfinder found it in 18 hours. They called over 40 pharmacies for me and saved me from missing work again.",
+			image: "/generated/image-1-professional-headshot-of-a-confident-a.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "David Chen",
+			position: "Marketing Director",
+			company: "Seattle, WA",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"After calling a dozen pharmacies myself with no luck, I tried Medfinder. Within 24 hours they located my prescription at a pharmacy 15 minutes from my office. Worth every penny to get those hours of my life back.",
+			image: "/generated/image-professional-headshot-of-asian-american-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Maria Rodriguez",
+			position: "Nurse",
+			company: "Phoenix, AZ",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Finding my specialty medication used to take a full day of phone calls every month. Medfinder consistently finds it in under 48 hours. The stress relief alone has been life-changing for managing my condition.",
+			image: "/generated/image-professional-headshot-of-hispanic-woman-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why thousands of patients choose Medfinder"
+	subtitle="We've helped 15,000+ patients find their medications with a 99% success rate"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "99% success rate finding medications",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"From specialty drugs to shortage medications, we locate what you need when local pharmacies come up empty. We'll call up to 50 pharmacies on your behalf.",
+			imageSrc: "/generated/image-a-diverse-adult-patient-sits-at-a-cozy-k.webp"
 		},
 		{
-			title: "Data Analysis",
+			title: "Save hours of frustrating phone calls",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Stop wasting time calling pharmacy after pharmacy hoping someone has your medication in stock. We handle the entire search process for you.",
+			imageSrc: "/generated/image-a-person-in-their-40s-or-50s-lounges-com.webp"
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Nationwide pharmacy network",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"We search pharmacies starting in your zip code and expand outward until we find your medication in stock. If it's available anywhere, we'll find it.",
+			imageSrc: "/generated/image-a-pharmacist-with-a-caring-expression-th.webp"
+		},
+		{
+			title: "Fast results when you need them",
+			description:
+				"Most patients get matched with a pharmacy within 2-24 hours. Even the hardest-to-find medications typically take just a few days.",
+			imageSrc: "/generated/image-a-person-glances-at-their-phone-resting-.webp"
+		},
+		{
+			title: "Money-back guarantee",
+			description:
+				"If we can't find your medication, you get a full refund. If it goes out of stock before pickup, we restart the search at no charge.",
+			imageSrc: "/generated/image-a-patient-stands-in-a-comfortable-home-s.webp"
+		},
+		{
+			title: "Your health information stays private",
+			description:
+				"HIPAA-compliant platform with encrypted connections ensures your personal and health information remains secure throughout the entire process.",
+			imageSrc: "/generated/image-a-healthcare-professional-in-a-modern-we.webp"
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop wasting hours searching for your medication"
+	subtitle="Get results in 2-24 hours"
+	description="Join 15,000+ patients who found their medications with our 99% success rate. If we can't find it, you get a full refund. Most patients receive results within 24 hours—even for the hardest-to-find prescriptions."
+	imageSrc="/generated/image-a-candid-documentary-style-image-of-a-pa.webp"
+	callsToAction={[
+		{
+			href: "/start",
+			label: "Find my medication",
+			variant: "primary"
+		},
+		{
+			href: "/how-it-works",
+			label: "How it works",
+			variant: "secondary"
+		}
+	]}
+/>
